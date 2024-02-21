@@ -11,8 +11,8 @@ const Counter = () => {
             <div>
                 <h2 className="text-[70px] text-center">{count}</h2>
                 <div className="flex gap-3">
-                    <Button name="Increment" action={() => dispatch(increment())} />
                     <Button name="Decrement" action={() => dispatch(decrement())} />
+                    <Button name="Increment" action={() => dispatch(increment())} />
                 </div>
             </div>
         </div>
